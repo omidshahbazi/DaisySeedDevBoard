@@ -4,7 +4,7 @@
   "name": "DevBoard",
   "content": "",
   "created_at": "2023-09-30 16:12:41",
-  "updated_at": "2024-03-31 18:45:37",
+  "updated_at": "2024-04-03 13:32:14",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1711894355,
+      "updateTime": 1712134045,
       "createTime": 1700056305,
       "histories": [],
       "created_at": "2023-11-15 17:21:45",
-      "updated_at": "2024-03-31 18:42:35",
+      "updated_at": "2024-04-03 13:17:25",
       "BOM": [
         [
           "Value",
@@ -47,27 +47,9 @@
         ],
         [
           "1uF",
-          2,
-          "CAP-TH_L7.2-W5.0-P5.00-D1.0",
-          "C2,C4",
-          {
-            "Contributor": "lcsc",
-            "Supplier": "LCSC",
-            "Supplier Part": "C3975271",
-            "Manufacturer": "KNSCHA(科尼盛)",
-            "Manufacturer Part": "MEB105J63V82CB0235",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C3975271&%26type=1&ref=editor",
-            "spiceSymbolName": "MEB105J63V82CB0235",
-            "puuid": "b6c25b490bf74e1c937a1223841af119",
-            "uuid": "c80bbeb17fce47d38aea4d0d11f68f3b"
-          }
-        ],
-        [
-          "100pF",
-          2,
+          10,
           "CAP-TH_L8.0-W4.0-P5.00-D0.7",
-          "C3,C9",
+          "C2,C4,C5,C6,C13,C14,C15,C16,C18,C19",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -82,10 +64,10 @@
           }
         ],
         [
-          "1uF",
-          6,
+          "100pF",
+          2,
           "CAP-TH_L8.0-W4.0-P5.00-D0.7",
-          "C5,C6,C13,C14,C16,C18",
+          "C3,C9",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -135,6 +117,24 @@
           }
         ],
         [
+          "Output Amp Input",
+          1,
+          "HDR-TH_4P-P2.54-V-M-R2-C2-S2.54-1",
+          "CN1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C160338",
+            "Manufacturer": "JST",
+            "Manufacturer Part": "RF-H042TD-1190(LF)(SN)",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C160338&%26type=1&ref=editor",
+            "spiceSymbolName": "RF-H042TD-1190 (LF)(SN)",
+            "puuid": "e49c22feda3c425ab1bbace1f15de151",
+            "uuid": "4d877a42266345acba7533dfe650732b"
+          }
+        ],
+        [
           "Input L",
           1,
           "AUDIO-TH_CK6.35-3-15-6",
@@ -171,7 +171,7 @@
           }
         ],
         [
-          "Line Out",
+          "Line Output",
           1,
           "AUDIO-TH_XKB_PJ-3062-HD-R",
           "CN6",
@@ -207,7 +207,7 @@
           }
         ],
         [
-          "Line In",
+          "Line Input",
           1,
           "AUDIO-TH_XKB_PJ-3062-HD-R",
           "CN10",
@@ -242,25 +242,77 @@
           }
         ],
         [
-          "GPIO A/D(2-34) D(5-23) 3.3V GND",
+          "Output Amp",
           1,
-          "HDR-TH_15P-P2.54-V-M",
+          "HDR-TH_2P-P2.00-V-M",
+          "H1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C376075",
+            "Manufacturer": "MINTRON(明硕)",
+            "Manufacturer Part": "MTP220-1102S1",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C376075&%26type=1&ref=editor",
+            "spiceSymbolName": "MTP220-1102S1",
+            "puuid": "8a59ad051ca0472489b62b8d2aec9c54",
+            "uuid": "11b4093b7d3b4706b73fa61516b3e8e2"
+          }
+        ],
+        [
+          "Input Amp",
+          1,
+          "HDR-TH_2P-P2.00-V-M",
+          "H2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C376075",
+            "Manufacturer": "MINTRON(明硕)",
+            "Manufacturer Part": "MTP220-1102S1",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C376075&%26type=1&ref=editor",
+            "spiceSymbolName": "MTP220-1102S1",
+            "puuid": "8a59ad051ca0472489b62b8d2aec9c54",
+            "uuid": "11b4093b7d3b4706b73fa61516b3e8e2"
+          }
+        ],
+        [
+          "Control Board 1",
+          1,
+          "HDR-TH_17P-P2.54-V-M",
+          "H3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894940",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Manufacturer Part": "PZ254-1-17-Z-8.5",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ254-1-17-Z-8.5",
+            "puuid": "80e26fc211b74efa8639126edf3d337f",
+            "uuid": "9994746ad684482cae30a81373fe22cf"
+          }
+        ],
+        [
+          "Control Board 2",
+          1,
+          "HDR-TH_17P-P2.54-V-M",
           "H5",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C2894938",
+            "Supplier Part": "C2894940",
             "Manufacturer": "HCTL(华灿天禄)",
-            "Manufacturer Part": "PZ254-1-15-Z-8.5",
+            "Manufacturer Part": "PZ254-1-17-Z-8.5",
             "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C2894938&%26type=1&ref=editor",
-            "spiceSymbolName": "PZ254-1-15-Z-8.5",
-            "puuid": "0d139e62728a49b09c74d4ad035ce944",
-            "uuid": "0af77319007a4306b73adb2411d7f822"
+            "spiceSymbolName": "PZ254-1-17-Z-8.5",
+            "puuid": "80e26fc211b74efa8639126edf3d337f",
+            "uuid": "9994746ad684482cae30a81373fe22cf"
           }
         ],
         [
-          "Module",
+          "Line Input/Output",
           1,
           "HDR-TH_6P-P2.54-V-M-1",
           "H6",
@@ -270,7 +322,6 @@
             "Manufacturer Part": "2.54-1x6P直针",
             "Supplier Part": "C37208",
             "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C37208&%26type=1&ref=editor",
             "spiceSymbolName": "Header-Male-2.54_1x6",
             "puuid": "fd9fc9865419407ab6a588b47dec0227",
             "uuid": "17eb339750ed2e3756214c176201643d"
@@ -370,58 +421,7 @@
           }
         ],
         [
-          "GND",
-          1,
-          "HDR-TH_6P-P2.54-V-F",
-          "U9",
-          {
-            "Supplier": "LCSC",
-            "Supplier Part": "C7509518",
-            "Manufacturer": "CONNFLY",
-            "Manufacturer Part": "DS1023-1x6SF11",
-            "Contributor": "lcsc",
-            "link": "https://lcsc.com/eda_search?q=C7509518&%26type=1&ref=editor",
-            "spiceSymbolName": "DS1023-1X6SF11",
-            "puuid": "84f1ed3c8ee94504833047c26b4d21a2",
-            "uuid": "6d8096215cc544dabd87bc08e0d9a9a9"
-          }
-        ],
-        [
-          "5V",
-          1,
-          "HDR-TH_6P-P2.54-V-F",
-          "U14",
-          {
-            "Supplier": "LCSC",
-            "Supplier Part": "C7509518",
-            "Manufacturer": "CONNFLY",
-            "Manufacturer Part": "DS1023-1x6SF11",
-            "Contributor": "lcsc",
-            "link": "https://lcsc.com/eda_search?q=C7509518&%26type=1&ref=editor",
-            "spiceSymbolName": "DS1023-1X6SF11",
-            "puuid": "84f1ed3c8ee94504833047c26b4d21a2",
-            "uuid": "6d8096215cc544dabd87bc08e0d9a9a9"
-          }
-        ],
-        [
-          "3.3V",
-          1,
-          "HDR-TH_6P-P2.54-V-F",
-          "U15",
-          {
-            "Supplier": "LCSC",
-            "Supplier Part": "C7509518",
-            "Manufacturer": "CONNFLY",
-            "Manufacturer Part": "DS1023-1x6SF11",
-            "Contributor": "lcsc",
-            "link": "https://lcsc.com/eda_search?q=C7509518&%26type=1&ref=editor",
-            "spiceSymbolName": "DS1023-1X6SF11",
-            "puuid": "84f1ed3c8ee94504833047c26b4d21a2",
-            "uuid": "6d8096215cc544dabd87bc08e0d9a9a9"
-          }
-        ],
-        [
-          "On/Off",
+          "Off/On",
           1,
           "SW-TH_MT-0-103-A101-M200-RS",
           "U19",
@@ -440,7 +440,7 @@
           }
         ],
         [
-          "(Up To 30V) +,-",
+          "(Up to 30V) +,-",
           1,
           "CONN-TH_2P-P5.08_DB128L-5.08-2P",
           "U20",
@@ -476,22 +476,22 @@
         ]
       ],
       "components": {
-        "6d8096215cc544dabd87bc08e0d9a9a9": 3,
         "4dd0a54a902241efbb48bd2cb3b54d78": 1,
         "626962a298fa4ed8a0bab64938dcef2d": 1,
         "d8072349f7c74742842883ea08ed4d96": 3,
-        "c80bbeb17fce47d38aea4d0d11f68f3b": 2,
-        "0af77319007a4306b73adb2411d7f822": 1,
-        "17eb339750ed2e3756214c176201643d": 1,
         "b65fa3cf47fa4f7281c5f3d243b922fe": 2,
         "23973a6606074275a67f89802c4611b2": 2,
-        "2e287dd091804cad83b0b4645865380f": 2,
-        "7658eca442c142f09c6488b04b1b63e1": 14,
         "b0248eb51e084227889f2cb84eab79c4": 14,
+        "2e287dd091804cad83b0b4645865380f": 2,
+        "7658eca442c142f09c6488b04b1b63e1": 18,
         "c14fbda721334d15b6d9341f4a6291f5": 1,
         "918cc556ed8e46b7a3f0e38683b6ff17": 1,
         "f60173524b374629b5435592ad4954fb": 1,
-        "800eedb62cd715e82ced19f820d754e8": 1
+        "800eedb62cd715e82ced19f820d754e8": 1,
+        "11b4093b7d3b4706b73fa61516b3e8e2": 2,
+        "4d877a42266345acba7533dfe650732b": 1,
+        "9994746ad684482cae30a81373fe22cf": 2,
+        "17eb339750ed2e3756214c176201643d": 1
       }
     },
     {
@@ -504,21 +504,21 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "3744bcbe1f464b01ae180f32d7d4b0c4": 1,
-        "17616368dd8f4ed9b4b58241fcf0534d": 14,
+        "fd9fc9865419407ab6a588b47dec0227": 1,
+        "952a4c5fa6da4d36a29f9284ea44b4cf": 1,
+        "2c5759b6dd1a4d0d9d6e2162c04aec71": 3,
         "f73b3c599ba34e98919036a7e5f69bf7": 1,
+        "80e26fc211b74efa8639126edf3d337f": 2,
+        "8a59ad051ca0472489b62b8d2aec9c54": 2,
+        "17616368dd8f4ed9b4b58241fcf0534d": 18,
+        "e49c22feda3c425ab1bbace1f15de151": 1,
+        "3744bcbe1f464b01ae180f32d7d4b0c4": 1,
         "a2ced4acaa4c44f09885f6447ef3efa4": 14,
         "61a55cacd5b14f109a68b11c09571ea3": 2,
         "9e11392ef170476ebc6b0992f0010e80": 2,
-        "2c5759b6dd1a4d0d9d6e2162c04aec71": 3,
         "c2803222ad4b48fb94db0de548a6280a": 1,
         "619489e674074de888fe8dd8f6b9799e": 1,
-        "5896eda49f3645259a2f966a2f813670": 1,
-        "0d139e62728a49b09c74d4ad035ce944": 1,
-        "fd9fc9865419407ab6a588b47dec0227": 1,
-        "84f1ed3c8ee94504833047c26b4d21a2": 3,
-        "b6c25b490bf74e1c937a1223841af119": 2,
-        "952a4c5fa6da4d36a29f9284ea44b4cf": 1
+        "5896eda49f3645259a2f966a2f813670": 1
       },
       "BOM": [
         [
@@ -790,11 +790,11 @@
           }
         ]
       ],
-      "updateTime": 1711894537,
+      "updateTime": 1712134934,
       "createTime": 1696484135,
       "histories": [],
       "created_at": "2023-10-05 09:05:35",
-      "updated_at": "2024-03-31 18:45:37"
+      "updated_at": "2024-04-03 13:32:14"
     }
   ],
   "sort": [
@@ -804,5 +804,5 @@
   "title": "DevBoard",
   "foldername": "DevBoard",
   "schfilename": "RawDevBoard.json",
-  "schfilemtime": 1711894355755
+  "schfilemtime": 1712134045282
 }

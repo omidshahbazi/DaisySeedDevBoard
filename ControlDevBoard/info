@@ -1,0 +1,136 @@
+{
+  "uuid": "8be430eecc2e26ae41379f4535bbd66c",
+  "path": "Offline/ControlDevBoard",
+  "name": "ControlDevBoard",
+  "content": "",
+  "created_at": "2024-04-03 13:19:52",
+  "updated_at": "2024-04-03 13:37:09",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d8315212068addf27c7798190342bc56",
+      "title": "Shematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9994746ad684482cae30a81373fe22cf": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Control Board 1",
+          1,
+          "HDR-TH_17P-P2.54-V-M",
+          "H3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894940",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Manufacturer Part": "PZ254-1-17-Z-8.5",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ254-1-17-Z-8.5",
+            "puuid": "80e26fc211b74efa8639126edf3d337f",
+            "uuid": "9994746ad684482cae30a81373fe22cf"
+          }
+        ],
+        [
+          "Control Board 2",
+          1,
+          "HDR-TH_17P-P2.54-V-M",
+          "H5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894940",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Manufacturer Part": "PZ254-1-17-Z-8.5",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ254-1-17-Z-8.5",
+            "puuid": "80e26fc211b74efa8639126edf3d337f",
+            "uuid": "9994746ad684482cae30a81373fe22cf"
+          }
+        ]
+      ],
+      "updateTime": 1712134601,
+      "createTime": 1712134193,
+      "histories": [],
+      "created_at": "2024-04-03 13:19:53",
+      "updated_at": "2024-04-03 13:26:41"
+    },
+    {
+      "uuid": "91d3d6fd0dcf481e64b15e5b0af98457",
+      "puuid": "8be430eecc2e26ae41379f4535bbd66c",
+      "title": "PCB_ControlDevBoard",
+      "filename": "PCB_ControlDevBoard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "80e26fc211b74efa8639126edf3d337f": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Control Board 1",
+          1,
+          "HDR-TH_17P-P2.54-V-M",
+          "H3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894940",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Manufacturer Part": "PZ254-1-17-Z-8.5",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ254-1-17-Z-8.5",
+            "puuid": "80e26fc211b74efa8639126edf3d337f",
+            "uuid": "9994746ad684482cae30a81373fe22cf"
+          }
+        ],
+        [
+          "Control Board 2",
+          1,
+          "HDR-TH_17P-P2.54-V-M",
+          "H5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894940",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Manufacturer Part": "PZ254-1-17-Z-8.5",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ254-1-17-Z-8.5",
+            "puuid": "80e26fc211b74efa8639126edf3d337f",
+            "uuid": "9994746ad684482cae30a81373fe22cf"
+          }
+        ]
+      ],
+      "updateTime": 1712135229,
+      "createTime": 1712134614,
+      "histories": [],
+      "created_at": "2024-04-03 13:26:54",
+      "updated_at": "2024-04-03 13:37:09"
+    }
+  ],
+  "sort": [],
+  "title": "ControlDevBoard",
+  "foldername": "ControlDevBoard",
+  "schfilename": "ControlDevBoard.json",
+  "schfilemtime": 1712134601364
+}
