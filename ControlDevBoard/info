@@ -4,7 +4,7 @@
   "name": "ControlDevBoard",
   "content": "",
   "created_at": "2024-04-03 13:19:52",
-  "updated_at": "2024-04-03 13:37:09",
+  "updated_at": "2024-04-05 17:21:02",
   "stick": "",
   "documents": [
     {
@@ -15,7 +15,9 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "9994746ad684482cae30a81373fe22cf": 2
+        "9994746ad684482cae30a81373fe22cf": 2,
+        "f9de8c9e302c4366a2b6ccd58d7cff55": 12,
+        "9cf8db48c2f2453185249383cb6bb898": 2
       },
       "BOM": [
         [
@@ -24,6 +26,23 @@
           "Package",
           "Components",
           "CustomPara"
+        ],
+        [
+          "GPIO21",
+          2,
+          "LED-TH_LED-DP2-2LED",
+          "D1,D3",
+          {
+            "Supplier": "Digi-Key",
+            "Manufacturer": "VccLite",
+            "Manufacturer Part": "5600",
+            "Supplier Part": "L20325-ND",
+            "link": "https://vcclite.com/product/5602f5-5v/",
+            "Contributor": "2022.kaustubh.natalkar",
+            "spiceSymbolName": "3mm Green TH LED 5600",
+            "puuid": "bec7282fe7a84dc3818a71031b6d2879",
+            "uuid": "9cf8db48c2f2453185249383cb6bb898"
+          }
         ],
         [
           "Control Board 1",
@@ -58,13 +77,205 @@
             "puuid": "80e26fc211b74efa8639126edf3d337f",
             "uuid": "9994746ad684482cae30a81373fe22cf"
           }
+        ],
+        [
+          "A01",
+          1,
+          "POTENTIOMETER",
+          "U1",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A00",
+          1,
+          "POTENTIOMETER",
+          "U2",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A02",
+          1,
+          "POTENTIOMETER",
+          "U3",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A03",
+          1,
+          "POTENTIOMETER",
+          "U4",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A04",
+          1,
+          "POTENTIOMETER",
+          "U5",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A05",
+          1,
+          "POTENTIOMETER",
+          "U6",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A06",
+          1,
+          "POTENTIOMETER",
+          "U7",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A07",
+          1,
+          "POTENTIOMETER",
+          "U8",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A11",
+          1,
+          "POTENTIOMETER",
+          "U9",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A10",
+          1,
+          "POTENTIOMETER",
+          "U10",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A09",
+          1,
+          "POTENTIOMETER",
+          "U11",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
+        ],
+        [
+          "A08",
+          1,
+          "POTENTIOMETER",
+          "U12",
+          {
+            "Supplier Part": "undefined",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "EVND8AA03B13",
+            "Contributor": "digitalPatrick",
+            "link": "",
+            "spiceSymbolName": "Potentiometer",
+            "puuid": "76637011ffa2413fa3fd92f6c6f5c506",
+            "uuid": "f9de8c9e302c4366a2b6ccd58d7cff55"
+          }
         ]
       ],
-      "updateTime": 1712134601,
+      "updateTime": 1712307773,
       "createTime": 1712134193,
       "histories": [],
       "created_at": "2024-04-03 13:19:53",
-      "updated_at": "2024-04-03 13:26:41"
+      "updated_at": "2024-04-05 13:32:53"
     },
     {
       "uuid": "91d3d6fd0dcf481e64b15e5b0af98457",
@@ -76,7 +287,9 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "80e26fc211b74efa8639126edf3d337f": 2
+        "80e26fc211b74efa8639126edf3d337f": 2,
+        "bec7282fe7a84dc3818a71031b6d2879": 1,
+        "76637011ffa2413fa3fd92f6c6f5c506": 12
       },
       "BOM": [
         [
@@ -121,16 +334,16 @@
           }
         ]
       ],
-      "updateTime": 1712135229,
+      "updateTime": 1712321462,
       "createTime": 1712134614,
       "histories": [],
       "created_at": "2024-04-03 13:26:54",
-      "updated_at": "2024-04-03 13:37:09"
+      "updated_at": "2024-04-05 17:21:02"
     }
   ],
   "sort": [],
   "title": "ControlDevBoard",
   "foldername": "ControlDevBoard",
   "schfilename": "ControlDevBoard.json",
-  "schfilemtime": 1712134601364
+  "schfilemtime": 1712307773653
 }

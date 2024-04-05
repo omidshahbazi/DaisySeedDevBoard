@@ -4,7 +4,7 @@
   "name": "DevBoard",
   "content": "",
   "created_at": "2023-09-30 16:12:41",
-  "updated_at": "2024-04-03 13:32:14",
+  "updated_at": "2024-04-05 17:25:58",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1712134045,
+      "updateTime": 1712320576,
       "createTime": 1700056305,
       "histories": [],
       "created_at": "2023-11-15 17:21:45",
-      "updated_at": "2024-04-03 13:17:25",
+      "updated_at": "2024-04-05 17:06:16",
       "BOM": [
         [
           "Value",
@@ -117,7 +117,7 @@
           }
         ],
         [
-          "Output Amp Input",
+          "Amp Input",
           1,
           "HDR-TH_4P-P2.54-V-M-R2-C2-S2.54-1",
           "CN1",
@@ -135,7 +135,7 @@
           }
         ],
         [
-          "Input L",
+          "Left Input",
           1,
           "AUDIO-TH_CK6.35-3-15-6",
           "CN2",
@@ -153,7 +153,7 @@
           }
         ],
         [
-          "Input R",
+          "Right Input",
           1,
           "AUDIO-TH_CK6.35-3-15-6",
           "CN3",
@@ -239,6 +239,23 @@
             "spiceSymbolName": "1N5817_C360254",
             "puuid": "c2803222ad4b48fb94db0de548a6280a",
             "uuid": "f60173524b374629b5435592ad4954fb"
+          }
+        ],
+        [
+          "Up to 30V",
+          1,
+          "CONN-TH_DC-005-2.5A-2.0",
+          "DC1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C319098",
+            "Manufacturer": "XKB Connectivity(中国星坤)",
+            "Manufacturer Part": "DC-005-2.5A-2.5",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "DC-005-2.5A-2.5",
+            "puuid": "97780662768047419baee292bf4b33f3",
+            "uuid": "e653124a12e74cdf963920c5b02d2c52"
           }
         ],
         [
@@ -405,56 +422,20 @@
           }
         ],
         [
-          "L78L05",
+          "7805",
           1,
-          "TO-92-3_L4.8-W3.7-P2.54-L",
-          "U3",
-          {
-            "Contributor": "lcsc",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2969858",
-            "Manufacturer": "ST(意法半导体)",
-            "Manufacturer Part": "L78L05ABZ-AP",
-            "spiceSymbolName": "L78L05ABZ-AP",
-            "puuid": "619489e674074de888fe8dd8f6b9799e",
-            "uuid": "918cc556ed8e46b7a3f0e38683b6ff17"
-          }
-        ],
-        [
-          "Off/On",
-          1,
-          "SW-TH_MT-0-103-A101-M200-RS",
-          "U19",
-          {
-            "Contributor": "lcsc",
-            "Supplier": "LCSC",
-            "Supplier Part": "C1788493",
-            "Manufacturer": "YUEN FUNG(源丰)",
-            "Manufacturer Part": "MT-0-103-A101-M200-RS+PJ",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C1788493&%26type=1&ref=editor",
-            "3DModel": "SW-TH_MT-0-103-A101-M200-RS",
-            "spiceSymbolName": "MT-0-103-A101-M200-RS+PJ",
-            "puuid": "952a4c5fa6da4d36a29f9284ea44b4cf",
-            "uuid": "626962a298fa4ed8a0bab64938dcef2d"
-          }
-        ],
-        [
-          "(Up to 30V) +,-",
-          1,
-          "CONN-TH_2P-P5.08_DB128L-5.08-2P",
-          "U20",
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U5",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C395868",
-            "Manufacturer": "DIBO(地博电气)",
-            "Manufacturer Part": "DB128L-5.08-2P-GN-S",
+            "Supplier Part": "C305416",
+            "Manufacturer": "BLUE ROCKET(蓝箭)",
+            "Manufacturer Part": "7805",
             "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C395868&%26type=1&ref=editor",
-            "spiceSymbolName": "DB128L-5.08-2P",
-            "puuid": "f73b3c599ba34e98919036a7e5f69bf7",
-            "uuid": "4dd0a54a902241efbb48bd2cb3b54d78"
+            "spiceSymbolName": "7805",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "04b05a7850bf43eebfc59303dc817788"
           }
         ],
         [
@@ -476,8 +457,6 @@
         ]
       ],
       "components": {
-        "4dd0a54a902241efbb48bd2cb3b54d78": 1,
-        "626962a298fa4ed8a0bab64938dcef2d": 1,
         "d8072349f7c74742842883ea08ed4d96": 3,
         "b65fa3cf47fa4f7281c5f3d243b922fe": 2,
         "23973a6606074275a67f89802c4611b2": 2,
@@ -485,13 +464,14 @@
         "2e287dd091804cad83b0b4645865380f": 2,
         "7658eca442c142f09c6488b04b1b63e1": 18,
         "c14fbda721334d15b6d9341f4a6291f5": 1,
-        "918cc556ed8e46b7a3f0e38683b6ff17": 1,
         "f60173524b374629b5435592ad4954fb": 1,
         "800eedb62cd715e82ced19f820d754e8": 1,
         "11b4093b7d3b4706b73fa61516b3e8e2": 2,
         "4d877a42266345acba7533dfe650732b": 1,
         "9994746ad684482cae30a81373fe22cf": 2,
-        "17eb339750ed2e3756214c176201643d": 1
+        "17eb339750ed2e3756214c176201643d": 1,
+        "04b05a7850bf43eebfc59303dc817788": 1,
+        "e653124a12e74cdf963920c5b02d2c52": 1
       }
     },
     {
@@ -504,20 +484,19 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "9e11392ef170476ebc6b0992f0010e80": 2,
+        "97780662768047419baee292bf4b33f3": 1,
+        "948e610cffd14df79f04c73832b1409b": 1,
+        "e49c22feda3c425ab1bbace1f15de151": 1,
         "fd9fc9865419407ab6a588b47dec0227": 1,
-        "952a4c5fa6da4d36a29f9284ea44b4cf": 1,
         "2c5759b6dd1a4d0d9d6e2162c04aec71": 3,
-        "f73b3c599ba34e98919036a7e5f69bf7": 1,
         "80e26fc211b74efa8639126edf3d337f": 2,
         "8a59ad051ca0472489b62b8d2aec9c54": 2,
         "17616368dd8f4ed9b4b58241fcf0534d": 18,
-        "e49c22feda3c425ab1bbace1f15de151": 1,
         "3744bcbe1f464b01ae180f32d7d4b0c4": 1,
         "a2ced4acaa4c44f09885f6447ef3efa4": 14,
         "61a55cacd5b14f109a68b11c09571ea3": 2,
-        "9e11392ef170476ebc6b0992f0010e80": 2,
         "c2803222ad4b48fb94db0de548a6280a": 1,
-        "619489e674074de888fe8dd8f6b9799e": 1,
         "5896eda49f3645259a2f966a2f813670": 1
       },
       "BOM": [
@@ -790,11 +769,11 @@
           }
         ]
       ],
-      "updateTime": 1712134934,
+      "updateTime": 1712321758,
       "createTime": 1696484135,
       "histories": [],
       "created_at": "2023-10-05 09:05:35",
-      "updated_at": "2024-04-03 13:32:14"
+      "updated_at": "2024-04-05 17:25:58"
     }
   ],
   "sort": [
@@ -804,5 +783,5 @@
   "title": "DevBoard",
   "foldername": "DevBoard",
   "schfilename": "RawDevBoard.json",
-  "schfilemtime": 1712134045282
+  "schfilemtime": 1712320576255
 }
