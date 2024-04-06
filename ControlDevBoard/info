@@ -4,7 +4,7 @@
   "name": "ControlDevBoard",
   "content": "",
   "created_at": "2024-04-03 13:19:52",
-  "updated_at": "2024-04-05 17:21:02",
+  "updated_at": "2024-04-05 17:43:54",
   "stick": "",
   "documents": [
     {
@@ -334,11 +334,11 @@
           }
         ]
       ],
-      "updateTime": 1712321462,
+      "updateTime": 1712322834,
       "createTime": 1712134614,
       "histories": [],
       "created_at": "2024-04-03 13:26:54",
-      "updated_at": "2024-04-05 17:21:02"
+      "updated_at": "2024-04-05 17:43:54"
     }
   ],
   "sort": [],
