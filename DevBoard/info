@@ -4,7 +4,7 @@
   "name": "DevBoard",
   "content": "",
   "created_at": "2023-09-30 16:12:41",
-  "updated_at": "2024-04-05 20:27:34",
+  "updated_at": "2024-04-08 13:30:49",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1712320576,
+      "updateTime": 1712565901,
       "createTime": 1700056305,
       "histories": [],
       "created_at": "2023-11-15 17:21:45",
-      "updated_at": "2024-04-05 17:06:16",
+      "updated_at": "2024-04-08 13:15:01",
       "BOM": [
         [
           "Value",
@@ -329,7 +329,7 @@
           }
         ],
         [
-          "Line Input/Output",
+          "Line Input/Output/GND/5V",
           1,
           "HDR-TH_6P-P2.54-V-M-1",
           "H6",
@@ -484,11 +484,11 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "fd9fc9865419407ab6a588b47dec0227": 1,
         "9e11392ef170476ebc6b0992f0010e80": 2,
         "97780662768047419baee292bf4b33f3": 1,
         "948e610cffd14df79f04c73832b1409b": 1,
         "e49c22feda3c425ab1bbace1f15de151": 1,
-        "fd9fc9865419407ab6a588b47dec0227": 1,
         "2c5759b6dd1a4d0d9d6e2162c04aec71": 3,
         "80e26fc211b74efa8639126edf3d337f": 2,
         "8a59ad051ca0472489b62b8d2aec9c54": 2,
@@ -769,11 +769,11 @@
           }
         ]
       ],
-      "updateTime": 1712332654,
+      "updateTime": 1712566849,
       "createTime": 1696484135,
       "histories": [],
       "created_at": "2023-10-05 09:05:35",
-      "updated_at": "2024-04-05 20:27:34"
+      "updated_at": "2024-04-08 13:30:49"
     }
   ],
   "sort": [
@@ -783,5 +783,5 @@
   "title": "DevBoard",
   "foldername": "DevBoard",
   "schfilename": "RawDevBoard.json",
-  "schfilemtime": 1712320576255
+  "schfilemtime": 1712565902079
 }
