@@ -4,7 +4,7 @@
   "name": "DevBoard",
   "content": "",
   "created_at": "2023-09-30 16:12:41",
-  "updated_at": "2024-04-08 13:30:49",
+  "updated_at": "2024-04-11 13:38:34",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1712565901,
+      "updateTime": 1712577138,
       "createTime": 1700056305,
       "histories": [],
       "created_at": "2023-11-15 17:21:45",
-      "updated_at": "2024-04-08 13:15:01",
+      "updated_at": "2024-04-08 16:22:18",
       "BOM": [
         [
           "Value",
@@ -102,7 +102,7 @@
           "100nF",
           4,
           "CAP-TH_L8.0-W4.0-P5.00-D0.7",
-          "C8,C10,C11,C12",
+          "C8,C10,C12,C20",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -484,6 +484,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "17616368dd8f4ed9b4b58241fcf0534d": 18,
         "fd9fc9865419407ab6a588b47dec0227": 1,
         "9e11392ef170476ebc6b0992f0010e80": 2,
         "97780662768047419baee292bf4b33f3": 1,
@@ -492,7 +493,6 @@
         "2c5759b6dd1a4d0d9d6e2162c04aec71": 3,
         "80e26fc211b74efa8639126edf3d337f": 2,
         "8a59ad051ca0472489b62b8d2aec9c54": 2,
-        "17616368dd8f4ed9b4b58241fcf0534d": 18,
         "3744bcbe1f464b01ae180f32d7d4b0c4": 1,
         "a2ced4acaa4c44f09885f6447ef3efa4": 14,
         "61a55cacd5b14f109a68b11c09571ea3": 2,
@@ -769,11 +769,11 @@
           }
         ]
       ],
-      "updateTime": 1712566849,
+      "updateTime": 1712826514,
       "createTime": 1696484135,
       "histories": [],
       "created_at": "2023-10-05 09:05:35",
-      "updated_at": "2024-04-08 13:30:49"
+      "updated_at": "2024-04-11 13:38:34"
     }
   ],
   "sort": [
@@ -783,5 +783,5 @@
   "title": "DevBoard",
   "foldername": "DevBoard",
   "schfilename": "RawDevBoard.json",
-  "schfilemtime": 1712565902079
+  "schfilemtime": 1712577138247
 }
