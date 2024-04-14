@@ -4,7 +4,7 @@
   "name": "DevBoard",
   "content": "",
   "created_at": "2023-09-30 16:12:41",
-  "updated_at": "2024-04-11 19:42:33",
+  "updated_at": "2024-04-14 14:54:28",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1712844746,
+      "updateTime": 1713089843,
       "createTime": 1700056305,
       "histories": [],
       "created_at": "2023-11-15 17:21:45",
-      "updated_at": "2024-04-11 18:42:26",
+      "updated_at": "2024-04-14 14:47:23",
       "BOM": [
         [
           "Value",
@@ -363,23 +363,6 @@
           }
         ],
         [
-          "OUT1",
-          1,
-          "PDIP-8_L10.2-W5.9-P2.54-LS7.6-BL",
-          "OUT1",
-          {
-            "subpart_no": "1",
-            "Supplier Part": "C110329",
-            "Supplier": "LCSC",
-            "Manufacturer": "TI(德州仪器)",
-            "Manufacturer Part": "TL072IP",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "TL072IP",
-            "puuid": "61a55cacd5b14f109a68b11c09571ea3",
-            "uuid": "23973a6606074275a67f89802c4611b2"
-          }
-        ],
-        [
           "100K",
           2,
           "PS-RES-16.5*6.42",
@@ -477,7 +460,7 @@
           "TL072IP",
           2,
           "PDIP-8_L10.2-W5.9-P2.54-LS7.6-BL",
-          "U1,U4",
+          "U1,U3",
           {
             "subpart_no": "1",
             "Supplier Part": "C110329",
@@ -520,6 +503,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "61a55cacd5b14f109a68b11c09571ea3": 2,
         "17616368dd8f4ed9b4b58241fcf0534d": 20,
         "5034cc45f37345f69e0f5323801c5716": 1,
         "fd9fc9865419407ab6a588b47dec0227": 1,
@@ -532,7 +516,6 @@
         "8a59ad051ca0472489b62b8d2aec9c54": 2,
         "3744bcbe1f464b01ae180f32d7d4b0c4": 1,
         "a2ced4acaa4c44f09885f6447ef3efa4": 14,
-        "61a55cacd5b14f109a68b11c09571ea3": 2,
         "c2803222ad4b48fb94db0de548a6280a": 1,
         "5896eda49f3645259a2f966a2f813670": 1
       },
@@ -806,11 +789,11 @@
           }
         ]
       ],
-      "updateTime": 1712848353,
+      "updateTime": 1713090268,
       "createTime": 1696484135,
       "histories": [],
       "created_at": "2023-10-05 09:05:35",
-      "updated_at": "2024-04-11 19:42:33"
+      "updated_at": "2024-04-14 14:54:28"
     }
   ],
   "sort": [
@@ -820,5 +803,5 @@
   "title": "DevBoard",
   "foldername": "DevBoard",
   "schfilename": "RawDevBoard.json",
-  "schfilemtime": 1712844746816
+  "schfilemtime": 1713089843836
 }
