@@ -4,7 +4,7 @@
   "name": "DevBoard",
   "content": "",
   "created_at": "2023-09-30 16:12:41",
-  "updated_at": "2024-04-15 18:52:07",
+  "updated_at": "2024-04-22 12:42:15",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1713089843,
+      "updateTime": 1713772632,
       "createTime": 1700056305,
       "histories": [],
       "created_at": "2023-11-15 17:21:45",
-      "updated_at": "2024-04-14 14:47:23",
+      "updated_at": "2024-04-22 12:27:12",
       "BOM": [
         [
           "Value",
@@ -102,7 +102,7 @@
           "100nF",
           4,
           "CAP-TH_L8.0-W4.0-P5.00-D0.7",
-          "C8,C10,C12,C20",
+          "C8,C10,C12,C22",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -242,7 +242,24 @@
           }
         ],
         [
-          "Up to 30V",
+          "1N4734",
+          1,
+          "DO-41G_BD2.4-L4.0-P8.00-D0.7-RD",
+          "D3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C391329",
+            "Manufacturer": "PANJIT(强茂)",
+            "Manufacturer Part": "1N4734A-G_AY_10001",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1N4734A-G_AY_10001",
+            "puuid": "3ec2c10767c043209af3e151780fbc9d",
+            "uuid": "6ed7b1533d7846b6bcb19eb4e96c170a"
+          }
+        ],
+        [
+          "5V DC",
           1,
           "CONN-TH_DC-005-2.5A-2.0",
           "DC1",
@@ -440,20 +457,19 @@
           }
         ],
         [
-          "7805",
+          "L78L05",
           1,
-          "TO-220-3_L10.0-W4.5-P2.54-L",
-          "U5",
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "U4",
           {
-            "Contributor": "LCSC",
             "Supplier": "LCSC",
-            "Supplier Part": "C305416",
-            "Manufacturer": "BLUE ROCKET(蓝箭)",
-            "Manufacturer Part": "7805",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "L78L05ACZ",
+            "Supplier Part": "C57900",
             "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "7805",
-            "puuid": "948e610cffd14df79f04c73832b1409b",
-            "uuid": "04b05a7850bf43eebfc59303dc817788"
+            "spiceSymbolName": "L78L05ACZ",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "3921eafbac0c3eb613e12fbf535fe715"
           }
         ],
         [
@@ -488,9 +504,10 @@
         "4d877a42266345acba7533dfe650732b": 1,
         "9994746ad684482cae30a81373fe22cf": 2,
         "17eb339750ed2e3756214c176201643d": 1,
-        "04b05a7850bf43eebfc59303dc817788": 1,
         "e653124a12e74cdf963920c5b02d2c52": 1,
-        "319c1407b76842b5a16ed610bcfbb4bc": 1
+        "319c1407b76842b5a16ed610bcfbb4bc": 1,
+        "3921eafbac0c3eb613e12fbf535fe715": 1,
+        "6ed7b1533d7846b6bcb19eb4e96c170a": 1
       }
     },
     {
@@ -503,13 +520,14 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "61a55cacd5b14f109a68b11c09571ea3": 2,
         "17616368dd8f4ed9b4b58241fcf0534d": 20,
+        "3ec2c10767c043209af3e151780fbc9d": 1,
+        "6924b36489de4921bb29ca14bf27c33f": 1,
+        "97780662768047419baee292bf4b33f3": 1,
+        "61a55cacd5b14f109a68b11c09571ea3": 2,
         "5034cc45f37345f69e0f5323801c5716": 1,
         "fd9fc9865419407ab6a588b47dec0227": 1,
         "9e11392ef170476ebc6b0992f0010e80": 2,
-        "97780662768047419baee292bf4b33f3": 1,
-        "948e610cffd14df79f04c73832b1409b": 1,
         "e49c22feda3c425ab1bbace1f15de151": 1,
         "2c5759b6dd1a4d0d9d6e2162c04aec71": 3,
         "80e26fc211b74efa8639126edf3d337f": 2,
@@ -789,11 +807,11 @@
           }
         ]
       ],
-      "updateTime": 1713190927,
+      "updateTime": 1713773535,
       "createTime": 1696484135,
       "histories": [],
       "created_at": "2023-10-05 09:05:35",
-      "updated_at": "2024-04-15 18:52:07"
+      "updated_at": "2024-04-22 12:42:15"
     }
   ],
   "sort": [
@@ -803,5 +821,5 @@
   "title": "DevBoard",
   "foldername": "DevBoard",
   "schfilename": "RawDevBoard.json",
-  "schfilemtime": 1713089843836
+  "schfilemtime": 1713772632391
 }
